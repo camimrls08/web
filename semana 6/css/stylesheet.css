@@ -1,0 +1,115 @@
+
+	html{
+		font-family: sans-serif;}
+	#wrapper { width:100%; margin:0 auto; max-width:700px; }
+  	#content { float:left; width:63%; margin-left:1%; }
+  	#sidebar { float:right; width:33%; margin-right:1%; }
+
+   
+	
+	header{
+		background-image:url(images/.jpg);
+		width: 990px;
+	}
+
+	img{ max-width:100%;
+	 }
+
+	*{ list-style: none;
+		text-decoration: none; }
+
+	nav{
+		background-color: #9FCACB;
+		padding: 10px 90px;
+		width: 100%;
+	}
+
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	nav li {
+		display: inline-block;
+	}
+
+	nav li a{
+		text-decoration: none;
+		color: white;
+		padding: 10px 20px;
+	}
+
+	a:hover{background-color:#9FCACB;}
+
+	body {
+			background-color:#ffffff;
+			font-family: "Lato", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    		font-size: 1em;
+    		color: #333;
+		 }
+  		@media screen and (max-width:50%) {
+    		body { background-color:orange; }
+ 		 }
+  
+ 		 @media screen and (max-width:43.75%) {
+   			body { background-color:yellow; }
+  		 }
+  
+ 		 @media screen and (max-width:37.5%) {
+    		body { background-color:green; }
+ 		 }
+  
+ 		 @media screen and (max-width:31.25%) {
+    		body { background-color:blue; }
+  		 }
+  
+  		 @media screen and (max-width:25%) {
+    		body { background-color:purple; }
+  		 }
+
+	h2{font-family: sans-serif;
+		font-size: 1.25em;
+		color:#230b03;}
+
+	p{font-family: Arial;
+		font-size:0.75em;
+		color:#230b03;
+		line-height: 150%;
+	} 
+
+	aside{
+		
+		width: 30%;
+		float: left;
+		background-color: 
+		font-family: sans-serif;
+		
+
+	}
+
+	aside li a {color: black;
+		}
+
+	section {
+		width: 50%;
+		float: left;}
+
+	<section id='wrapper'>
+ 	 <section id='content'>
+    Content
+  </section>
+  <section id='sidebar'>
+    Sidebar
+
+  </section>
+  <div style='clear:both;'></div>
+</section>
+
+	}
+
+	footer {
+		clear: both;
+		float: bottom;
+		width:33%;
+		margin-bottom:100%;
+	}
